@@ -54,6 +54,6 @@
     </Target>
 
     <Target Name="PublishThunderstore">
-        <Exec Command="dotnet tcli publish --config-path &quot;$(ProjectDir)Thunderstore/config.toml&quot; --file &quot;$(ProjectDir)../loaforc-loaforcsSoundAPI_LethalCompany-$(Version).zip&quot;" />
+        <Exec Command="dotnet tcli publish --config-path &quot;$(ProjectDir)Thunderstore/config.toml&quot; --file &quot;$(ProjectDir)../loaforc-loaforcsSoundAPI_REPO-$(Version).zip&quot;" />
     </Target>
 </Project>
